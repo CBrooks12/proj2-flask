@@ -29,14 +29,20 @@ tr.even {
     /* A little lighter */ 
     background-color: rgb(224,213,179);
 }
-
+tr.current {
+    /* A little darker */
+    background-color: rgb(146,123,160);
+}
 .class-schedule .week {
     
     font-weight: bolder;
     font-size: 150%; 
     text-align: center; 
 }
-
+.class-schedule .date {
+    
+    text-align: center; 
+}
 .class-schedule .topic {
     padding-left: 3ex;
     padding-right: 3ex;
